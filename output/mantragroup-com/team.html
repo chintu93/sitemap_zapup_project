@@ -1,0 +1,1135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Libs CSS -->
+    <!-- <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css"> -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <title>Landkit</title>
+
+    <script>
+
+
+$(function() {
+    var header = $(".start-style");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 10) {
+            header.removeClass('start-style').addClass("scroll-on");
+        } else {
+            header.removeClass("scroll-on").addClass('start-style');
+        }
+    });
+});		
+    
+
+    </script>
+
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Example -->
+    <div class="modal fade" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Image -->
+            <div class="text-center">
+              <img src="../assetshttps://www.agilecrm.com/img/illustrations/illustration-1.png" alt="..." class="img-fluid mb-3" style="width: 200px;">
+            </div>
+
+            <!-- Heading -->
+            <h2 class="font-weight-bold text-center mb-1" id="modalExampleTitle">
+              Schedule a demo with us
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-center text-muted mb-6 mb-md-8">
+              We can help you solve company communication.
+            </p>
+
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-6">
+
+                  <!-- First name -->
+                  <div class="form-label-group">
+                    <input type="text" class="form-control form-control-flush" id="registrationFirstNameModal" placeholder="First name">
+                    <label for="registrationFirstNameModal">First name</label>
+                  </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                  <!-- Last name -->
+                  <div class="form-label-group">
+                    <input type="text" class="form-control form-control-flush" id="registrationLastNameModal" placeholder="Last name">
+                    <label for="registrationLastNameModal">Last name</label>
+                  </div>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6">
+
+                  <!-- Email -->
+                  <div class="form-label-group">
+                    <input type="email" class="form-control form-control-flush" id="registrationEmailModal" placeholder="Email">
+                    <label for="registrationEmailModal">Email</label>
+                  </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                  <!-- Password -->
+                  <div class="form-label-group">
+                    <input type="password" class="form-control form-control-flush" id="registrationPasswordModal" placeholder="Password">
+                    <label for="registrationPasswordModal">Password</label>
+                  </div>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+              
+                  <!-- Submit -->
+                  <button class="btn btn-block btn-primary mt-3 lift">
+                    Request a demo
+                  </button>
+
+                </div>
+              </div>
+            </form>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup: Horizontal  -->
+    <div class="modal fade" id="modalSignupHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSignupHorizontalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card card-row">
+            <div class="row no-gutters">
+              <div class="col-12 col-md-6 bg-cover card-img-left" style="background-image: url(./assetshttps://www.agilecrm.com/img/photos/photo-8.jpg);">
+
+                <!-- Image (placeholder) -->
+                <img src="./assetshttps://www.agilecrm.com/img/photos/photo-8.jpg" alt="..." class="img-fluid d-md-none invisible">
+
+                <!-- Shape -->
+                <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M116 0H51V172C76 384 0 517 0 517V690H116V0Z" fill="currentColor"/>
+                  </svg>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-body">
+
+                  <!-- Close -->
+                  <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+              
+                  <!-- Heading -->
+                  <h2 class="mb-0 font-weight-bold text-center" id="modalSignupHorizontalTitle">
+                    Sign Up
+                  </h2>
+
+                  <!-- Text -->
+                  <p class="mb-6 text-center text-muted">
+                    Simplify your workflow in minutes.
+                  </p>
+
+                  <!-- Form -->
+                  <form class="mb-6">
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label class="sr-only" for="modalSignupHorizontalEmail">
+                        Your email
+                      </label>
+                      <input type="email" class="form-control" id="modalSignupHorizontalEmail" placeholder="Your email">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group mb-5">
+                      <label class="sr-only" for="modalSignupHorizontalPassword">
+                        Create a password
+                      </label>
+                      <input type="password" class="form-control" id="modalSignupHorizontalPassword" placeholder="Create a password">
+                    </div>
+
+                    <!-- Submit -->
+                    <button class="btn btn-block btn-primary" type="submit">
+                      Sign up
+                    </button>
+
+                  </form>
+
+                  <!-- Text -->
+                  <p class="mb-0 font-size-sm text-center text-muted">
+                    Already have an account? <a href="./signin-illustration.html">Log in</a>.
+                  </p>
+
+                </div>
+              </div>
+
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup: Vertical  -->
+    <div class="modal fade" id="modalSignupVertical" tabindex="-1" role="dialog" aria-labelledby="modalSignupVerticalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card">
+
+            <!-- Close -->
+            <button type="button" class="modal-close close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Image -->
+            <img src="./assetshttps://www.agilecrm.com/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+
+            <!-- Shape -->
+            <div class="position-relative">
+              <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0V480H2880V0H2160Z" fill="currentColor"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+
+              <!-- Heading -->
+              <h2 class="mb-0 font-weight-bold text-center" id="modalSignupVerticalTitle">
+                Sign Up
+              </h2>
+
+              <!-- Text -->
+              <p class="mb-6 text-center text-muted">
+                Simplify your workflow in minutes.
+              </p>
+
+              <!-- Form -->
+              <form class="mb-6">
+
+                <!-- Email -->
+                <div class="form-group">
+                  <label class="sr-only" for="modalSignupVerticalEmail">
+                    Your email
+                  </label>
+                  <input type="email" class="form-control" id="modalSignupVerticalEmail" placeholder="Your email">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group mb-5">
+                  <label class="sr-only" for="modalSignupVerticalPassword">
+                    Create a password
+                  </label>
+                  <input type="password" class="form-control" id="modalSignupVerticalPassword" placeholder="Create a password">
+                </div>
+
+                <!-- Submit -->
+                <button class="btn btn-block btn-primary" type="submit">
+                  Sign up
+                </button>
+
+              </form>
+
+              <!-- Text -->
+              <p class="mb-0 font-size-sm text-center text-muted">
+                Already have an account? <a href="./signin-illustration.html">Log in</a>.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signin: Horizontal  -->
+    <div class="modal fade" id="modalSigninHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSigninHorizontalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card card-row">
+            <div class="row no-gutters">
+              <div class="col-12 col-md-6 bg-cover card-img-left" style="background-image: url(./assetshttps://www.agilecrm.com/img/photos/photo-1.jpg);">
+
+                <!-- Image (placeholder) -->
+                <img src="./assetshttps://www.agilecrm.com/img/photos/photo-1.jpg" alt="..." class="img-fluid d-md-none invisible">
+
+                <!-- Shape -->
+                <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M116 0H51V172C76 384 0 517 0 517V690H116V0Z" fill="currentColor"/>
+                  </svg>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-body">
+
+                  <!-- Close -->
+                  <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+              
+                  <!-- Heading -->
+                  <h2 class="mb-0 font-weight-bold text-center" id="modalSigninHorizontalTitle">
+                    Sign In
+                  </h2>
+
+                  <!-- Text -->
+                  <p class="mb-6 text-center text-muted">
+                    Simplify your workflow in minutes.
+                  </p>
+
+                  <!-- Form -->
+                  <form class="mb-6">
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label class="sr-only" for="modalSigninHorizontalEmail">
+                        Your email
+                      </label>
+                      <input type="email" class="form-control" id="modalSigninHorizontalEmail" placeholder="Your email">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group mb-5">
+                      <label class="sr-only" for="modalSigninHorizontalPassword">
+                        Create a password
+                      </label>
+                      <input type="password" class="form-control" id="modalSigninHorizontalPassword" placeholder="Create a password">
+                    </div>
+
+                    <!-- Submit -->
+                    <button class="btn btn-block btn-primary" type="submit">
+                      Sign in
+                    </button>
+
+                  </form>
+
+                  <!-- Text -->
+                  <p class="mb-0 font-size-sm text-center text-muted">
+                    Don't have an account yet? <a href="./signin-illustration.html">Sign up</a>.
+                  </p>
+
+                </div>
+              </div>
+
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup: Vertical  -->
+    <div class="modal fade" id="modalSigninVertical" tabindex="-1" role="dialog" aria-labelledby="modalSigninVerticalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card">
+
+            <!-- Close -->
+            <button type="button" class="modal-close close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+
+            <!-- Image -->
+            <img src="./assetshttps://www.agilecrm.com/img/photos/photo-21.jpg" alt="..." class="card-img-top">
+
+            <!-- Shape -->
+            <div class="position-relative">
+              <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0V480H2880V0H2160Z" fill="currentColor"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+
+              <!-- Heading -->
+              <h2 class="mb-0 font-weight-bold text-center" id="modalSigninVerticalTitle">
+                Sign In
+              </h2>
+
+              <!-- Text -->
+              <p class="mb-6 text-center text-muted">
+                Simplify your workflow in minutes.
+              </p>
+
+              <!-- Form -->
+              <form class="mb-6">
+
+                <!-- Email -->
+                <div class="form-group">
+                  <label class="sr-only" for="modalSigninVerticalEmail">
+                    Your email
+                  </label>
+                  <input type="email" class="form-control" id="modalSigninVerticalEmail" placeholder="Your email">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group mb-5">
+                  <label class="sr-only" for="modalSigninVerticalPassword">
+                    Create a password
+                  </label>
+                  <input type="password" class="form-control" id="modalSigninVerticalPassword" placeholder="Create a password">
+                </div>
+
+                <!-- Submit -->
+                <button class="btn btn-block btn-primary" type="submit">
+                  Sign in
+                </button>
+
+              </form>
+
+              <!-- Text -->
+              <p class="mb-0 font-size-sm text-center text-muted">
+                Don't have an account yet? <a href="./signin-illustration.html">Sign up</a>.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- NAVBAR
+    ================================================== -->
+    <header id="header" class="fixed-top header-transparent">
+        <div id="navbr" class="navigation-wrap start-header start-style p-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                        
+                            <a class="navbar-brand navbh" href="#"><img src="images/mantra-logo.svg" alt="none"></a>	
+                            <a style="display: none;" class="navbar-brand navsecimg" href="#"><img src="images/mantra.png" alt="none"></a>	                            
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="fa fa-bars"></span>
+                            </button>
+                            
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a href="#home" data-toggle="smooth-scroll" class="nav-link">Home</a>
+                                        
+                                    </li> -->
+                                    <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a href="#Whatwedo" data-toggle="smooth-scroll" class="nav-link">What We Do</a>
+                                    </li> -->
+                                    <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                      <a href="#weofferyou" data-toggle="smooth-scroll" class="nav-link">We Offer You</a>
+                                  </li> -->
+                                  
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a href="#Ourclients" data-toggle="smooth-scroll" class="nav-link">Our Clients</a>
+                                    </li>
+                                   
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a href="#Testimonials" data-toggle="smooth-scroll" class="nav-link">Fun@Mantra</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                      <a href="#Contact" data-toggle="smooth-scroll" class="nav-link">Contact Us</a>
+                                  </li>
+                                  <!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a href="#contact" data-toggle="smooth-scroll" class="nav-link">Contact</a>
+                                </li> -->
+                                </ul>
+                            </div>
+                            
+                        </nav>		
+                    </div>
+                </div>
+            </div>
+        </div>        
+</header>
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" style="background-image: url(images/team-banner.jpg)">
+        <div class="container-fluid pt-8 pb-10 pt-md-14 pb-md-14 bg-layer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold text-white text-center mb-0" id="welcomeHeadingSource">
+              We Enable Your Success
+            </h1>
+            <p class="logo-clr-txt text-white font-size-lg">Meet the rockstars behind the world's best All-in-One CRM</p>
+
+            
+            <button class="btn btn-light b-n m-t-md" style="padding:6px 15px; color:#004096;">JOIN THE TEAM</button>
+
+           
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div>
+    </section>
+
+
+  
+
+     
+
+      <div class="container m-t-xl pt-10">
+        <h2 class="text-center" style="visibility: visible; animation-name: fadeIn; margin-bottom: 50px; font-size: 35px; font-weight: bold;">OUR TEAM</h2>
+        <div class="row">
+        <div class="col-md-12 m-b-md" style="visibility: visible; margin-bottom: 0px; animation-name: fadeIn;">
+        <div class="text-center">
+        <span><img src="https://www.agilecrm.com/img/about/xceo-pic.png.pagespeed.ic.ryorhOqSK0.webp" alt="Manohar Chapalamadugu" class="rounded-circle"></span><br><br>
+        <h4 style="font-weight:bold">Manohar Chapalamadugu</h4>
+        <small>Founder and CEO</small><br>
+        <p class="text-muted" style="max-width:700px;  display: inline-block;">Manohar Chapalamadugu is the founder and CEO of Agile CRM. Agile offers a complete sales and marketing SaaS app for small businesses. Prior to Agile CRM, Manohar was the founder and CEO of ClickDesk. He has over 10 years of experience working with startups and holds a Master's from the State University of New York and a Bachelor's from Birla Institute of Technology and Science, Pilani.
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+        <div class="container pt-10">
+            <h3 class="text-center" style="margin-bottom: 60px; font-size: 35px; font-weight: bold;">Director's</h3>
+            <div class="row">
+            <div class="col-xs-12 col-sm-5 m-b-md  fadeIn wow  animated" >
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xpavan.png.pagespeed.ic.RieTablArg.webp" alt="Pat Faram" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Dr. Pavan</h4>
+            <small class="text-muted">AVP</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 m-b-md  fadeIn wow  animated" ></div>
+            </div>
+            <div class="row pt-5">
+            <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" >
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xsriramkappaganthu.png.pagespeed.ic.BV_wlc-aVb.webp" alt="sriram kappaganthu" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Sriram Kappaganthu</h4>
+            <small class="text-muted">Director Of Sales</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xguzzu.png.pagespeed.ic.N-nmzBsSO2.webp" alt="Sridhar Guzzu" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Sridhar Guzzu </h4>
+            <small class="text-muted">Sr. Sales Manager Enterprise </small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xshashank.png.pagespeed.ic.BAWQRGb5sS.webp" alt="shashank" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Shashank David</h4>
+            <small class="text-muted">Sr. Enterprise Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xnarender.png.pagespeed.ic.1NaXwz-8vU.webp" alt="Narender Pollishetty" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Andy Roberts</h4>
+            <small class="text-muted">Sr. Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xnagaraju.png.pagespeed.ic.Zm4IYL_KdC.webp" alt="Nagaraju Yadav" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Nathan Brown</h4>
+            <small class="text-muted">Enterprise Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+            </div>
+            <div class="row pt-5">
+            <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xarnold.png.pagespeed.ic.S1woMvENB4.webp" alt="phani kumar" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Arnold Dias</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xsaisiva.png.pagespeed.ic.z1vkNgVYbS.webp" alt="Sai Siva Prasad" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Sai Siva (Scott)</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xshravan.png.pagespeed.ic.XQB8RxL2BJ.webp" alt="Shravan Kumar" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Shravan (Shawn)</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xvarun.png.pagespeed.ic.B_i-AvZNM7.webp" alt="Varun Tejpal" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Varun (Val)</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xbelinda.png.pagespeed.ic.v3O-_W3o1G.webp" alt="Belinda Trevor" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Belinda Trevor</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+            </div>
+            <div class="row pt-5">
+            <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xyogesh.png.pagespeed.ic.OdJRV9PZm3.webp" alt="Yogesh Prakash" class="rounded-circle" ></span>
+            <h4 style="font-weight:bold">Yogesh Chauhan</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xnitin.png.pagespeed.ic.JIh9qfrOKz.webp" alt="Nitin Jayan" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Nitin Jayan</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xarif.png.pagespeed.ic.0Zrdyvq6wY.webp" alt="Mohammed Arif" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Mohammed Arif (Adam)</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xabdul.png.pagespeed.ic.Z7lc47lZw7.webp" alt="Abdul Q. Siddiqui" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Abdul (Alex)</h4>
+            <small class="text-muted">Sales Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xsugunakar.png.pagespeed.ic.hnlZWfJyQp.webp" alt="Sugunakar G" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Sugunakar G</h4>
+            <small class="text-muted">MDR</small>
+            </div>
+            </div>
+            </div>
+            <div class="row pt-5">
+            <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xphanidhar.png.pagespeed.ic.5dM8BW37rl.webp" alt="Phanidhar Kasinadhuni" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Phanidhar</h4>
+            <small class="text-muted">Manager- Demand Generation</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xpeddi.png.pagespeed.ic.tc9D8QycN4.webp" alt="Peddi Shiva Reddy" class="rounded-circle"></span>
+            <h5 style="font-weight:bold">Shiva (Brian)</h5>
+            <small class="text-muted">MDR</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xjoemon.png.pagespeed.ic.JVS-v8aXGX.webp" alt="Joemon T Henry" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Joemon Henry</h4>
+            <small class="text-muted">Manager - Sales</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xsriram.png.pagespeed.ic.2V-6uj9Kig.webp" alt="anilkumar" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Sriram Srinath</h4>
+            <small class="text-muted">Sales Support Manager</small>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+            <div class="text-center trusted-people profile-div">
+            <span><img src="https://www.agilecrm.com/img/about/xmartin.png.pagespeed.ic.vbbVl_C0E1.webp" alt="Martin" class="rounded-circle"></span>
+            <h4 style="font-weight:bold">Martin</h4>
+            <small class="text-muted">MDR</small>
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+
+            <div class="container pt-10">
+                <h3 class="text-center" style="margin-bottom: 60px; font-size: 35px; font-weight: bold;">Manager's</h3>
+                <div class="row">
+                <div class="col-xs-12 col-sm-5 m-b-md  fadeIn wow  animated" >
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xpavan.png.pagespeed.ic.RieTablArg.webp" alt="Pat Faram" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Dr. Pavan</h4>
+                <small class="text-muted">AVP</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 m-b-md  fadeIn wow  animated" ></div>
+                </div>
+                <div class="row pt-5">
+                <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" >
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xsriramkappaganthu.png.pagespeed.ic.BV_wlc-aVb.webp" alt="sriram kappaganthu" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Sriram Kappaganthu</h4>
+                <small class="text-muted">Director Of Sales</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xguzzu.png.pagespeed.ic.N-nmzBsSO2.webp" alt="Sridhar Guzzu" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Sridhar Guzzu </h4>
+                <small class="text-muted">Sr. Sales Manager Enterprise </small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xshashank.png.pagespeed.ic.BAWQRGb5sS.webp" alt="shashank" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Shashank David</h4>
+                <small class="text-muted">Sr. Enterprise Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xnarender.png.pagespeed.ic.1NaXwz-8vU.webp" alt="Narender Pollishetty" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Andy Roberts</h4>
+                <small class="text-muted">Sr. Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xnagaraju.png.pagespeed.ic.Zm4IYL_KdC.webp" alt="Nagaraju Yadav" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Nathan Brown</h4>
+                <small class="text-muted">Enterprise Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+                </div>
+                <div class="row pt-5">
+                <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xarnold.png.pagespeed.ic.S1woMvENB4.webp" alt="phani kumar" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Arnold Dias</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xsaisiva.png.pagespeed.ic.z1vkNgVYbS.webp" alt="Sai Siva Prasad" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Sai Siva (Scott)</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xshravan.png.pagespeed.ic.XQB8RxL2BJ.webp" alt="Shravan Kumar" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Shravan (Shawn)</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xvarun.png.pagespeed.ic.B_i-AvZNM7.webp" alt="Varun Tejpal" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Varun (Val)</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xbelinda.png.pagespeed.ic.v3O-_W3o1G.webp" alt="Belinda Trevor" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Belinda Trevor</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+                </div>
+                <div class="row pt-5">
+                <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xyogesh.png.pagespeed.ic.OdJRV9PZm3.webp" alt="Yogesh Prakash" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Yogesh Chauhan</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xnitin.png.pagespeed.ic.JIh9qfrOKz.webp" alt="Nitin Jayan" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Nitin Jayan</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xarif.png.pagespeed.ic.0Zrdyvq6wY.webp" alt="Mohammed Arif" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Mohammed Arif (Adam)</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xabdul.png.pagespeed.ic.Z7lc47lZw7.webp" alt="Abdul Q. Siddiqui" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Abdul (Alex)</h4>
+                <small class="text-muted">Sales Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xsugunakar.png.pagespeed.ic.hnlZWfJyQp.webp" alt="Sugunakar G" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Sugunakar G</h4>
+                <small class="text-muted">MDR</small>
+                </div>
+                </div>
+                </div>
+                <div class="row pt-5">
+                <div class="col-xs-12 col-sm-1 m-b-md  fadeIn wow  animated" ></div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xphanidhar.png.pagespeed.ic.5dM8BW37rl.webp" alt="Phanidhar Kasinadhuni" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Phanidhar</h4>
+                <small class="text-muted">Manager- Demand Generation</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xpeddi.png.pagespeed.ic.tc9D8QycN4.webp" alt="Peddi Shiva Reddy" class="rounded-circle"></span>
+                <h5 style="font-weight:bold">Shiva (Brian)</h5>
+                <small class="text-muted">MDR</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xjoemon.png.pagespeed.ic.JVS-v8aXGX.webp" alt="Joemon T Henry" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Joemon Henry</h4>
+                <small class="text-muted">Manager - Sales</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xsriram.png.pagespeed.ic.2V-6uj9Kig.webp" alt="anilkumar" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Sriram Srinath</h4>
+                <small class="text-muted">Sales Support Manager</small>
+                </div>
+                </div>
+                <div class="col-xs-12 col-sm-2 m-b-md  fadeIn wow  animated" >
+                <div class="text-center trusted-people profile-div">
+                <span><img src="https://www.agilecrm.com/img/about/xmartin.png.pagespeed.ic.vbbVl_C0E1.webp" alt="Martin" class="rounded-circle"></span>
+                <h4 style="font-weight:bold">Martin</h4>
+                <small class="text-muted">MDR</small>
+                </div>
+                </div>
+                </div>
+                </div>
+
+    <!-- FOOTER
+    ================================================== -->
+   
+    <section class="pt-8 pt-md-10 border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+  
+              <!-- Map (mobile) -->
+              <div class="embed-responsive embed-responsive-1by1 d-md-none">
+                <div class="embed-responsive-item" data-toggle="map" data-options='{"center": [-118.244615, 34.052979], "zoom": 12}'></div>
+              </div>
+  
+              <!-- Map -->
+              <div class="position-relative h-100 vw-50 float-right d-none d-md-block">
+              
+                <!-- Map -->
+                <div class="w-100 h-100" data-toggle="map" data-options='{"center": [-118.244615, 34.052979], "zoom": 12}'></div>  
+                <!-- Shape -->
+                <div class="shape shape-right shape-fluid-y svg-shim text-white">
+                  <svg viewBox="0 0 100 1544" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 386V0H100V1544H50V1158L0 386Z" fill="currentColor"/>
+                  </svg>
+                </div>  
+              </div>  
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 py-8 py-md-11 py-lg-12">
+                <p class="text-muted" style="font-size:17px;"><b>When our first successful SaaS business started scaling faster than expected</b>, we needed software that could keep up. We tried everything on the market, but the current sales and marketing apps were a mess, either too expensive or too clunky to be useful to smaller businesses.<br><br>
+                    <b>We built an elegant solution</b>. Our team created a fully integrated sales and marketing solution for SMBs. Since launching in 2013, Agile CRM is now used by thousands of successful businesses around the world. <br><br>
+                    <b>We’re building a global brand</b>. And we're doing it with a growing team made up of some of the smartest, most dedicated people you’ll ever meet. <a href="/blog/why-we-built-agile-crm/">Learn more</a>
+                    </p> 
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+
+    <section  class="py-8 py-md-11 bg-light">
+        <div class="container">
+         
+          <div id="Contact" class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-8">                
+                  <!-- Card -->
+                  <div class="card card-border border-primary shadow-light-lg" data-jarallax-element="-40" style="z-index: 0; transform: translate3d(0px, 43.0666px, 0px);">
+                    <div class="card-body">
+                      <div class="row justify-content-center">
+                        <div class="col-12 col-xl-11">
+                      
+                          <!-- Image -->
+                          <div class="text-center">
+                            <img src="images/contact-us.png" alt="..." class="img-fluid mb-3" style="width: 250px;">
+                          </div>
+      
+                          <!-- Heading -->
+                          <h2 class="font-weight-bold text-center mt-3 mb-1">
+                              Contact Us
+                          </h2>
+      
+                          <!-- Text -->
+                          <p class="lead text-center text-muted mb-6 mb-md-8">
+                              Please drop us a line if you have any questions or would like to know more about our offerings.
+                          </p>
+      
+                          <!-- Form -->
+                          <form>
+                            <div class="row">
+                              <div class="col-12 col-md-12">
+      
+                                <!-- First name -->
+                                <div class="form-label-group">
+                                  <input type="text" class="form-control form-control-flush" id="registrationFirstName" placeholder="Name">
+                                  <label for="registrationFirstName">Name</label>
+                                </div>
+      
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12 col-md-12">
+      
+                                <!-- Email -->
+                                <div class="form-label-group">
+                                  <input type="email" class="form-control form-control-flush" id="registrationEmail" placeholder="Email">
+                                  <label for="registrationEmail">Email</label>
+                                </div>
+      
+                              </div>
+                              <div class="col-12 col-md-12">
+      
+                                <!-- Password -->
+                                <div class="form-label-group">
+                                  <textarea rows="3" cols="3" class="form-control form-control-flush w-100" id="registrationMessage" placeholder="Message"></textarea>
+                                  <label for="registrationPassword">Message</label>
+                                </div>
+      
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                
+                                <!-- Submit -->
+                                <button class="btn btn-block btn-primary mt-3 lift">
+                                    Get in touch
+                                </button>
+      
+                              </div>
+                            </div>
+                          </form>
+                        
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: absolute;"></div></div></div>
+      
+                </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+
+      <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative mt-md-n14">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+      </div>
+    </div>
+
+
+  <!-- SHAPE
+  ================================================== -->
+  <div class="position-relative mt-md-n16">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+       
+      </div>
+    </div>
+    <!-- FOOTER
+    ================================================== -->
+    <section class="mt-n14 pt-md-14 pt-11 bg-dark">
+    <footer id="contact" class="pt-8 pt-md-8 py-2 mt-md-14 bg-dark">
+      <div class="container">
+       
+        <div class="row" data-aos="fade-up">
+          <div class="col-sm-12 col-md-4 col-lg-4 text-center text-md-left">
+          <img width="48" alt="..." class="footer-brand img-fluid mb-2" src="images/mantra-flat.png">    
+          <p class="text-muted small"> Mantra Group is a premier global technology and consulting firm empowering growing businesses to embrace digital transformation.</p>   
+          </div>
+         
+          <div class="col-sm-12 col-md-4 col-lg-3 offset-md-1 text-center text-md-left">
+          <h6 class="font-weight-bold text-uppercase text-gray-700">
+          US
+          </h6>
+          <ul class="list-unstyled contact-block text-muted mb-0">
+          
+          <li class="mt-3">
+            <span class="text-reset small">
+            <span class="d-inline-block">
+            99 Wall Street #1135 <br> New York,
+            NY 10005</span>
+            </span>
+            </li>
+          </ul>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 text-center text-md-left">
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+            India
+            </h6>
+            <ul class="list-unstyled contact-block text-muted mb-0">
+         
+            <li class="mt-3">
+            <span class="text-reset small">
+            <span class="d-inline-block">
+              1<sup>st</sup> Floor, Plot No. 8 & 9, <br/> Jubilee Enclave, Opp. HITEX Entrance,
+              Hyderabad, Telangana 500084</span>
+            </span>
+            </li>
+            </ul>
+            </div>
+
+          </div>
+<br>
+          <div class="row  border-top py-3 border-gray-800-50">
+
+            <p class="text-muted col-md-10 text-center small text-md-left">Mantra Technologies Private Limited © 2020. All rights reserved</p>
+            <ul class="col-md-2 float-right text-center text-md-right">
+              <!-- <li class="list-inline-item list-social-item mr-3">
+              <a href="#" class="text-decoration-none">
+              <img src="https://cdnsite.500apps.com/website/assetshttps://www.agilecrm.com/img/icons/social/instagram.svg" class="list-social-icon" alt="..." data-pagespeed-url-hash="432978799">
+              </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+              <a href="#!" class="text-decoration-none">
+              <img src="https://cdnsite.500apps.com/website/assetshttps://www.agilecrm.com/img/icons/social/facebook.svg" class="list-social-icon" alt="..." data-pagespeed-url-hash="1006316313">
+              </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+              <a href="#" class="text-decoration-none">
+              <img src="https://cdnsite.500apps.com/website/assetshttps://www.agilecrm.com/img/icons/social/twitter.svg" class="list-social-icon" alt="..." data-pagespeed-url-hash="3584365248">
+              </a>
+              </li> -->
+              <li class="list-inline-item list-social-item">
+              <a href="https://linkedin.com/company/mantragroup" target="_blank" class="text-decoration-none">
+              <img src="../images/linkedin.svg" class="list-social-icon" alt="..." data-pagespeed-url-hash="1157368983">
+              </a>
+              </li>
+              </ul>
+
+
+          </div>
+         
+        
+         
+         <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+  </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+
+      
+  </body>
+</html>
