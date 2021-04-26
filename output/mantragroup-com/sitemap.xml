@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		 <loc>https://mantragroup.com</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+	<url>
+		 <loc>https://mantragroup.com/ga</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+	<url>
+		 <loc>https://mantragroup.com/basic</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+	<url>
+		 <loc>https://mantragroup.com/thank_you</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+	<url>
+		 <loc>https://mantragroup.com/404</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+	<url>
+		 <loc>https://mantragroup.com/team</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+	<url>
+		 <loc>https://mantragroup.com/career</loc>
+		 <lastmod>2021-04-26T05:36:07+00:00</lastmod>
+		 <changefreq>daily</changefreq>
+		 <priority>1.0</priority>
+	</url>
+</urlset>
